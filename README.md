@@ -21,7 +21,6 @@ npm uninstall <package-name>
 Ensured the app is built in production mode with `esbuild` minification for optimized JS size:
 
 ```json
-// vite.config.js or similar
 export default defineConfig({
   mode: "production",
   build: {
