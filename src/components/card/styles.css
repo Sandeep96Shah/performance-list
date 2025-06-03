@@ -1,0 +1,23 @@
+.card-container {
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.card-container .image-container{
+    height: 100px;
+    width: 100px;
+}
+
+.card-container .image-container img {
+    height: 100px;
+    width: 100px;
+}
+
+.card-container .description {
+    padding: 10px;
+    color: rgb(26, 25, 25);
+}
